@@ -20,7 +20,8 @@
     resolution = <2>;
 };
 
-behaviors {
+/ {
+    behaviors {
         td0: search_or_full_screen {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -29,7 +30,6 @@ behaviors {
         };
     };
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
