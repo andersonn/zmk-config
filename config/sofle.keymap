@@ -106,7 +106,7 @@
 // |     | UNDO          | CUT           | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
 //                       |               |       |       |      |      |  |  ms  |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt_macro_win            &bt_macro_mac            &bt BT_SEL 2             &bt BT_SEL 3 &bt BT_SEL 4                            &trans    &trans    &trans   &trans    &trans  &trans
+&bt BT_CLR &bt_macro_win            &bt BT_SEL 1            &bt BT_SEL 2             &bt BT_SEL 3 &bt BT_SEL 4                            &trans    &trans    &trans   &trans    &trans  &trans
 &trans     &kp INS                  &kp PSCRN                &kp K_CMENU              &trans       &trans                                  &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
 &trans     &kp LA(LG(LEFT_ARROW))   &kp LA(LG(C))            &kp LA(LG(RIGHT_ARROW))  &td0         &caps_word                              &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
 &trans     &kp LG(Z)                &kp LG(X)                &kp LG(C)                &kp LG(V)    &trans      &trans      &trans          &trans    &trans    &trans   &trans    &trans  &trans
